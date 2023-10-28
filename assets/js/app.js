@@ -22,7 +22,7 @@ const musics = [
         id : 1,
         tittle: 'God Is A Girl',
         file: 'god-is-a-girl.mp3',
-        image: './assets/img/music-thumb/GodIsAgirl.jpg'
+        image: './assets/img/music-thumb/GodIsAGirl.jpg'
     },
     {
         id : 2,
