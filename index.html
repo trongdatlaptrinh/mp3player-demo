@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player (Clone by Dat)</title>
+    <link rel="shortcut icon" href="./assets/img/favicon/mp3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="music">
+            <div class="music-thumb">
+                <img src="./assets/img/music-thumb/866b1a38fb0cc2f276c321f3fe6c1ff8.jpg" alt="Ảnh bài hát">
+            </div>
+            <h3 class="music-name">God is a girl</h3>
+            <input type="range" name="range" id="range" class="range">
+            <audio src="./assets/mp3/god-is-a-girl.mp3" id="song"></audio>
+            <div class="timer">
+                <div class="duration">2:10</div>
+                <div class="remaining">-3:10</div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-infinity play-infinite"></i>
+                <i class="fa-solid fa-backward play-back"></i>
+                <div class="play">
+                    <div class="player-inner">
+                        <i class="fa-solid fa-play play-icon"></i>
+                    </div>
+                </div>
+                <i class="fa-solid fa-forward play-forward"></i>
+                <i class="fa-solid fa-repeat play-repeat"></i>
+            </div>
+        </div>
+        <script src="./assets/js/app.js"></script>
+    </div>
+</body>
+</html>
